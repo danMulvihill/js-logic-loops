@@ -69,3 +69,42 @@ if(addNums(-3, 2)){
 }else{
     console.log("fail");
 }
+
+function fullName(fName, lName){
+    alert(fName+" "+lName);
+    output.innerHTML = fName;
+}
+
+//fullName("Dan", "M");
+
+//create a function and store it in a variable
+
+var myGreatFunc = function(){
+    console.log('function stored in var');
+};
+
+myGreatFunc();
+
+
+var openDoor = function(door){
+    if(door === "yellow"){
+        output.innerHTML = "You win the grand prize: A new car!";
+    }else if(door === "green"){
+        console.log("You win a consolation prize: a toaster");
+    }else{
+        console.log("You win...nothing. Sorry");
+    }
+}
+
+
+//openDoor('yellow');
+
+
+var foo = {
+    color: "crimson"
+}
+
+console.log(typeof foo);
+
+var cartoons = ["Tom", "Jerry", "Woodstock", "Snoopy"];
+console.log(cartoons.length)
