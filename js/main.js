@@ -90,9 +90,9 @@ var openDoor = function(door){
     if(door === "yellow"){
         output.innerHTML = "You win the grand prize: A new car!";
     }else if(door === "green"){
-        console.log("You win a consolation prize: a toaster");
+        output.innerHTML = "You win a consolation prize: a toaster";
     }else{
-        console.log("You win...nothing. Sorry");
+        output.innerHTML="You win...nothing. Sorry";
     }
 }
 
